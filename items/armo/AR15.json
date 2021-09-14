@@ -214,7 +214,7 @@
         ],
         "pocket_data": [
             {
-                "magazine_well": "350 ml",
+                "magazine_well": "422 ml",
                 "holster": true,
                 "max_contains_volume": "750 ml",
                 "max_contains_weight": "750 g",
@@ -360,6 +360,39 @@
             "DURABLE_MELEE",
             "SHEATH_KNIFE",
             "NPC_THROWN"
+        ]
+    },
+    {
+        "id": "AR15_Panties",
+        "type": "ARMOR",
+        "name": {
+            "str": "AR15的内裤"
+        },
+        "description": "AR15的内裤，左侧系带与匕首末端相连，所以拔出匕首会被解开(然而没找到手持物品对应的触发事件，所以并没有做出来这个特性)",
+        "weight": "32 g",
+        "volume": "250 ml",
+        "price": 1000,
+        "price_postapoc": 50,
+        "material": [
+            "cotton"
+        ],
+        "symbol": "[",
+        "looks_like": "briefs",
+        "color": "white",
+        "warmth": 5,
+        "material_thickness": 0.1,
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT"
+        ],
+        "armor": [
+            {
+                "coverage": 15,
+                "covers": [
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
         ]
     }
 ]
