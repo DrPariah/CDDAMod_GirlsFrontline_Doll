@@ -1,0 +1,82 @@
+[
+    {
+        "id": "GFMod_ar15",
+        "copy-from": "rifle_semi",
+        "type": "GUN",
+        "name": {
+            "str": "AR-15自动步枪"
+        },
+        "//": "This is assumed to be the standard model matching the (currently not in-game) M16. Tileset whitelist for rifles",
+        "description": "改装枪机总成、下机匣、扳机组后可进行全自动射击的AR-15战术人形配枪",
+        "weight": "3090 g",
+        "volume": "3100 ml",
+        "longest_side": "876 mm",
+        "price": 125000,
+        "price_postapoc": 4000,
+        "bashing": 12,
+        "range": 550,
+        "ranged_damage": {
+            "damage_type": "bullet",
+            "amount": -2
+        },
+        "to_hit": {
+            "grip": "solid",
+            "length": "long",
+            "surface": "point",
+            "balance": "neutral"
+        },
+        "material": [
+            "steel",
+            "plastic"
+        ],
+        "symbol": "(",
+        "color": "dark_gray",
+        "ammo": [
+            "223"
+        ],
+        "dispersion": 80,
+        "durability": 10,
+        "min_cycle_recoil": 1350,
+        "clip_size": 1,
+        "pocket_data": [
+            {
+                "pocket_type": "MAGAZINE_WELL",
+                "holster": true,
+                "max_contains_volume": "20 L",
+                "max_contains_weight": "20 kg",
+                "item_restriction": [
+                    "stanag30",
+                    "stanag5",
+                    "stanag10",
+                    "stanag20",
+                    "stanag40",
+                    "stanag50",
+                    "stanag60",
+                    "stanag60drum",
+                    "stanag90",
+                    "stanag100",
+                    "stanag100drum",
+                    "stanag150",
+                    "survivor223mag"
+                ]
+            }
+        ],
+        "modes": [
+            [
+                "DEFAULT",
+                "半自动",
+                1
+            ],
+            [
+                "AUTO",
+                "全自动",
+                5
+            ],
+            [
+                "MELEE",
+                "三连发",
+                3
+            ]
+        ]
+    }
+]

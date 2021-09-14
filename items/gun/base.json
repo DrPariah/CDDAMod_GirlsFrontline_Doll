@@ -1,0 +1,100 @@
+[
+    {
+        "abstract": "gun_base",
+        "type": "GUN",
+        "reload_noise_volume": 10,
+        "name": {
+            "str": "base gun"
+        },
+        "symbol": "(",
+        "color": "light_gray",
+        "faults": [
+            "fault_gun_blackpowder",
+            "fault_gun_dirt",
+            "fault_gun_chamber_spent"
+        ],
+        "ranged_damage": {
+            "damage_type": "bullet",
+            "amount": 0
+        }
+    },
+    {
+        "abstract": "rifle_base",
+        "copy-from": "gun_base",
+        "type": "GUN",
+        "name": {
+            "str": "base rifle"
+        },
+        "skill": "rifle",
+        "valid_mod_locations": [
+            [
+                "accessories",
+                4
+            ],
+            [
+                "barrel",
+                1
+            ],
+            [
+                "bore",
+                1
+            ],
+            [
+                "brass catcher",
+                1
+            ],
+            [
+                "grip",
+                1
+            ],
+            [
+                "mechanism",
+                4
+            ],
+            [
+                "magazine",
+                1
+            ],
+            [
+                "muzzle",
+                1
+            ],
+            [
+                "rail",
+                2
+            ],
+            [
+                "sights",
+                1
+            ],
+            [
+                "sling",
+                1
+            ],
+            [
+                "stock",
+                1
+            ],
+            [
+                "underbarrel",
+                1
+            ]
+        ]
+    },
+    {
+        "abstract": "rifle_semi",
+        "copy-from": "rifle_base",
+        "type": "GUN",
+        "name": {
+            "str": "semi-automatic rifle"
+        }
+    },
+    {
+        "abstract": "rifle_auto",
+        "copy-from": "rifle_base",
+        "type": "GUN",
+        "name": {
+            "str": "fully automatic rifle"
+        }
+    }
+]

@@ -1,0 +1,365 @@
+[
+    {
+        "id": "AR15_Coat",
+        "repairs_like": "trenchcoat",
+        "type": "ARMOR",
+        "name": {
+            "str_sp": "AR15作战外套"
+        },
+        "description": "AR15战术人形的作战外套",
+        "weight": "300 g",
+        "volume": "1500 ml",
+        "price": 3500,
+        "price_postapoc": 750,
+        "material": [
+            "cotton",
+            "kevlar_layered"
+        ],
+        "symbol": "[",
+        "looks_like": "coat_winter",
+        "color": "black",
+        "armor": [
+            {
+                "covers": [
+                    "torso"
+                ],
+                "coverage": 95,
+                "encumbrance": [
+                    0,
+                    10
+                ]
+            },
+            {
+                "covers": [
+                    "arm_l",
+                    "arm_r"
+                ],
+                "coverage": 95,
+                "encumbrance": [
+                    0,
+                    4
+                ]
+            }
+        ],
+        "pocket_data": [
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "1 L",
+                "max_contains_weight": "2 kg",
+                "max_item_length": "15 cm",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "1 L",
+                "max_contains_weight": "2 kg",
+                "max_item_length": "15 cm",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "900 ml",
+                "max_contains_weight": "2 kg",
+                "max_item_length": "15 cm",
+                "moves": 50
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "900 ml",
+                "max_contains_weight": "2 kg",
+                "max_item_length": "15 cm",
+                "moves": 50
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "500 ml",
+                "max_contains_weight": "1 kg",
+                "max_item_length": "13 cm",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "500 ml",
+                "max_contains_weight": "1 kg",
+                "max_item_length": "13 cm",
+                "moves": 80
+            }
+        ],
+        "warmth": 20,
+        "material_thickness": 0.25,
+        "valid_mods": [
+            "steel_padded"
+        ],
+        "flags": [
+            "VARSIZE",
+            "POCKETS",
+            "OUTER",
+            "RAINPROOF",
+            "STURDY",
+            "COLLAR"
+        ]
+    },
+    {
+        "id": "AR15_Dress",
+        "type": "ARMOR",
+        "name": {
+            "str": "AR15吊带裙"
+        },
+        "description": "AR15的正面可加装防弹插板的白色吊带裙，两侧肩带下有两个小口袋可以储存ID卡等小物件",
+        "weight": "60 g",
+        "volume": "1 L",
+        "price": 4000,
+        "price_postapoc": 50,
+        "to_hit": -5,
+        "material": [
+            "cotton"
+        ],
+        "symbol": "[",
+        "looks_like": "dress",
+        "color": "white",
+        "material_thickness": 0.1,
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "armor": [
+            {
+                "coverage": 65,
+                "covers": [
+                    "torso"
+                ],
+                "encumbrance": [
+                    0,
+                    2
+                ]
+            },
+            {
+                "coverage": 20,
+                "covers": [
+                    "leg_r",
+                    "leg_l"
+                ]
+            }
+        ],
+        "pocket_data": [
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "300 ml",
+                "max_contains_weight": "100 g",
+                "max_item_length": "8 cm",
+                "moves": 50
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "300 ml",
+                "max_contains_weight": "100 g",
+                "max_item_length": "8 cm",
+                "moves": 50
+            }
+        ]
+    },
+    {
+        "id": "AR15_Boots",
+        "repairs_like": "boots_survivor",
+        "type": "ARMOR",
+        "category": "armor",
+        "name": {
+            "str": "AR15连裤靴"
+        },
+        "description": "AR15的皮质连裤靴，左腿外侧附有一小刀鞘",
+        "weight": "500 g",
+        "volume": "2 L",
+        "price": 7000,
+        "price_postapoc": 1500,
+        "to_hit": -1,
+        "bashing": 1,
+        "material": [
+            "leather",
+            "rubber"
+        ],
+        "symbol": "[",
+        "looks_like": "boots",
+        "color": "dark_gray",
+        "warmth": 25,
+        "material_thickness": 2.5,
+        "environmental_protection": 2,
+        "flags": [
+            "VARSIZE",
+            "WATERPROOF",
+            "STURDY",
+            "FANCY",
+            "SKINTIGHT"
+        ],
+        "armor": [
+            {
+                "coverage": 100,
+                "covers": [
+                    "foot_l",
+                    "foot_r"
+                ]
+            },
+            {
+                "encumbrance": 2,
+                "coverage": 100,
+                "covers": [
+                    "leg_l"
+                ]
+            },
+            {
+                "coverage": 34,
+                "covers": [
+                    "leg_r"
+                ]
+            }
+        ],
+        "pocket_data": [
+            {
+                "magazine_well": "350 ml",
+                "holster": true,
+                "max_contains_volume": "750 ml",
+                "max_contains_weight": "750 g",
+                "max_item_length": "25 cm",
+                "moves": 20,
+                "flag_restriction": [
+                    "SHEATH_KNIFE"
+                ]
+            }
+        ],
+        "use_action": {
+            "type": "holster",
+            "holster_prompt": "Sheath knife",
+            "holster_msg": "You sheath your %s"
+        }
+    },
+    {
+        "id": "AR15_Gloves",
+        "type": "ARMOR",
+        "category": "armor",
+        "name": {
+            "str": "AR15作战手套"
+        },
+        "description": "AR15的作战手套，左手为露指手套以减轻手套对操作能力的影响；关节处镶钢以提供对关节更好的保护",
+        "weight": "100 g",
+        "volume": "250 ml",
+        "price": 3400,
+        "price_postapoc": 750,
+        "material": [
+            "steel",
+            "kevlar_layered"
+        ],
+        "symbol": "[",
+        "looks_like": "gloves_leather",
+        "color": "brown",
+        "warmth": 15,
+        "material_thickness": 1.5,
+        "environmental_protection": 1,
+        "flags": [
+            "VARSIZE",
+            "STURDY"
+        ],
+        "armor": [
+            {
+                "encumbrance": 0,
+                "coverage": 60,
+                "covers": [
+                    "hand_l"
+                ]
+            },
+            {
+                "encumbrance": 2,
+                "coverage": 100,
+                "covers": [
+                    "hand_r"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "AR15_K9",
+        "type": "TOOL",
+        "category": "weapons",
+        "name": {
+            "str": "AR15专用K9刺刀"
+        },
+        "description": "AR15专用K9刺刀，相比常规的军用匕首更加锋利且易于进行精确切割，得益于表面硬化镀层，可在不损伤刀体的前提下格挡部分攻击或撬开不那么坚固的门窗、板条箱等；尾部拴在胖次系带上防止丢失(???)；平时可收纳于左腿外侧的刀鞘内\n因进行了高度客制化导致其仅能装于AR15人形配枪下，无法装在其他枪械上作为刺刀使用",
+        "weight": "558 g",
+        "volume": "422 ml",
+        "longest_side": "25 cm",
+        "price": 10000,
+        "price_postapoc": 1250,
+        "to_hit": 2,
+        "bashing": 8,
+        "cutting": 30,
+        "material": [
+            "steel",
+            "plastic"
+        ],
+        "symbol": ";",
+        "color": "dark_gray",
+        "gunmod_data": {
+            "location": "underbarrel",
+            "mod_targets": [
+                "GFMod_ar15"
+            ],
+            "mode_modifier": [
+                [
+                    "REACH",
+                    "bayonet",
+                    2,
+                    [
+                        "MELEE",
+                        "REACH_ATTACK"
+                    ]
+                ]
+            ],
+            "install_time": "3 s"
+        },
+        "min_skills": [
+            [
+                "weapon",
+                2
+            ],
+            [
+                "melee",
+                1
+            ]
+        ],
+        "techniques": [
+            "RAPID"
+        ],
+        "qualities": [
+            [
+                "CUT",
+                2
+            ],
+            [
+                "CUT_FINE",
+                2
+            ],
+            [
+                "BUTCHER",
+                20
+            ],
+            [
+                "PRY",
+                3
+            ],
+            [
+                "HAMMER",
+                1
+            ]
+        ],
+        "thrown_damage": [
+            {
+                "damage_type": "stab",
+                "amount": 14
+            }
+        ],
+        "flags": [
+            "STAB",
+            "DURABLE_MELEE",
+            "SHEATH_KNIFE",
+            "NPC_THROWN"
+        ]
+    }
+]

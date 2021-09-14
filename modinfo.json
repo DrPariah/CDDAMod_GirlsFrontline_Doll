@@ -1,0 +1,18 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "GFDoll-AR15",
+    "name": "AR15",
+    "authors": [
+      "Cambria"
+    ],
+    "maintainers": [
+      "Cambria"
+    ],
+    "description": "添加了少女前线中ST AR-15战术人形及其装备",
+    "category": "items",
+    "dependencies": [
+      "dda"
+    ]
+  }
+]
