@@ -1,0 +1,174 @@
+[
+    {
+        "id": "GF_CTRStock",
+        "type": "GUNMOD",
+        "name": {
+            "str": "CTR枪托"
+        },
+        "description": "在枪托的镂空“三角”内有一个调节锁柱，当压下调节锁柱时，它就会让枪托解除锁定状态，使其可以沿着缓冲管前后滑动。放开调节锁柱，固定销便可以卡住缓冲管上的枪托定位孔，使枪托固定。镂空三角的前方就是阻尼锁。当确定好枪托长度后，阻尼锁就能自动锁上。阻尼锁压下后会使两个内部的凸片结构压在缓冲管的平整边缘上，以消除枪托在射击时出现的弹力，保持稳定。如果不需要使用阻尼锁；枪托仍能像其他可伸缩枪托一样正常工作。压下调整卡榫就可解除摩擦锁。",
+        "weight": "254 g",
+        "volume": "500 ml",
+        "integral_volume": "0 ml",
+        "integral_weight": "0 g",
+        "price": 400,
+        "price_postapoc": 500,
+        "install_time": "5 m",
+        "to_hit": 1,
+        "bashing": 6,
+        "material": [
+            "plastic",
+            "rubber"
+        ],
+        "symbol": ":",
+        "color": "dark_gray",
+        "location": "stock",
+        "mod_targets": [
+            "rifle"
+        ],
+        "dispersion_modifier": -15,
+        "handling_modifier": 4,
+        "min_skills": [
+            [
+                "weapon",
+                2
+            ]
+        ]
+    },
+    {
+        "id": "GF_AFG2Grip",
+        "type": "GUNMOD",
+        "name": {
+            "str": "AFG二代转角前握把"
+        },
+        "description": "美国MAGPUL公司生产的第二代转角前握把（AFG-2）",
+        "weight": "125 g",
+        "volume": "250 ml",
+        "integral_volume": "0 ml",
+        "integral_weight": "0 g",
+        "price": 38000,
+        "price_postapoc": 750,
+        "install_time": "10 s",
+        "material": [
+            "plastic"
+        ],
+        "symbol": ":",
+        "color": "dark_gray",
+        "location": "grip",
+        "mod_targets": [
+            "rifle",
+            "crossbow"
+        ],
+        "handling_modifier": 8,
+        "min_skills": [
+            [
+                "weapon",
+                2
+            ]
+        ]
+    },
+    {
+        "id": "GF_LEUPOLDMark6Scope",
+        "type": "GUNMOD",
+        "name": {
+            "str": "LEUPOLD Mark 6 1-6×20mm"
+        },
+        "description": "美国望远镜厂商LEUPOLD刘坡尔德生产的Mark 6 1-6×20mm卡宾镜。这种设计的光学瞄具在最低倍率下可以部分担当近战瞄具如红点的功能。",
+        "weight": "280 g",
+        "volume": "112 ml",
+        "price": 68000,
+        "price_postapoc": 750,
+        "material": [
+            "aluminum",
+            "glass"
+        ],
+        "symbol": ":",
+        "color": "dark_gray",
+        "location": "sights",
+        "mod_targets": [
+            "rifle",
+            "crossbow"
+        ],
+        "install_time": "30 m",
+        "sight_dispersion": 4,
+        "aim_speed": 4,
+        "min_skills": [
+            [
+                "weapon",
+                2
+            ],
+            [
+                "gun",
+                4
+            ]
+        ],
+        "flags": [
+            "ZOOM",
+            "DISABLE_SIGHTS"
+        ]
+    },
+    {
+        "id": "GF_MBUSSight",
+        "copy-from": "improve_sights",
+        "type": "GUNMOD",
+        "name": {
+            "str": "MBUS折叠备用机械瞄具"
+        },
+        "description": "美国MAGPUL公司生产的MBUS折叠备用机械瞄具。",
+        "location": "rail",
+        "mod_targets": [
+            "smg",
+            "rifle",
+            "shotgun"
+        ],
+        "min_skills": [
+            [
+                "weapon",
+                3
+            ],
+            [
+                "gun",
+                4
+            ]
+        ],
+        "proportional": {
+            "sight_dispersion": 1.25
+        },
+        "aim_speed": 1,
+        "delete": {
+            "flags": [
+                "DISABLE_SIGHTS"
+            ]
+        }
+    },
+    {
+        "id": "GF_SVCOMP",
+        "type": "GUNMOD",
+        "name": {
+            "str": "枪口制退器SVCOMP"
+        },
+        "description": "美国Shadow Valley Weapons公司生产的300BLK弹专用枪口制退器SVCOMP。",
+        "weight": "80 g",
+        "volume": "250 ml",
+        "price": 84000,
+        "price_postapoc": 500,
+        "install_time": "1 m",
+        "material": [
+            "steel"
+        ],
+        "symbol": ":",
+        "color": "light_gray",
+        "location": "muzzle",
+        "mod_targets": [
+            "rifle"
+        ],
+        "dispersion_modifier": 30,
+        "handling_modifier": 4,
+        "loudness_modifier": 14,
+        "min_skills": [
+            [
+                "weapon",
+                2
+            ]
+        ]
+    }
+]

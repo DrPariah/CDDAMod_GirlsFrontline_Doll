@@ -1,0 +1,11 @@
+[
+    {
+        "id": "GF_ASST",
+        "type": "bionic",
+        "name": { "str": "烙印系统" },
+        "description": "一项由蚀刻理论扩展后的实用技术，由帕斯卡在2058年研究完毕并公布，其正式名称为“Advance Statistic Session Tool”（简称ASST系统），这项技术可以使战术人形和自己的武器之间建立特殊的感应联系。战术人形在出厂时，会通过ASST技术，使人形与一件特定武器建立一种一对一的独立识别关系。 根据服务器中的数据与历史资料，人形会根据ASST来决定自身最适合的造型和操作习惯乃至性格来适应武器。当战术人形在使用自己的专属武器时，操作效率和精确度都会大幅提高，在一定物理条件中也能随时感知自己武器的位置。",
+        "occupied_bodyparts": [ [ "eyes", 1 ], [ "arm_l", 3 ], [ "arm_r", 3 ], [ "hand_l", 1 ], [ "hand_r", 1 ] ],
+        "flags": [ "BIONIC_NPC_USABLE" ],
+        "enchantments": [ { "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.75 } ] } ]
+      }
+]

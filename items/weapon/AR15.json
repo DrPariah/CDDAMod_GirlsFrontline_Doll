@@ -1,0 +1,103 @@
+[
+    {
+        "id": "GF_AR15_K9",
+        "type": "TOOL",
+        "category": "weapons",
+        "name": {
+            "str": "AR15专用K9刺刀"
+        },
+        "description": "AR15专用K9刺刀，相比常规的军用匕首更加锋利且易于进行精确切割，得益于表面硬化镀层，可在不损伤刀体的前提下格挡部分攻击或撬开不那么坚固的门窗、板条箱等；尾部拴在胖次系带上防止丢失(???)；平时可收纳于左腿外侧的刀鞘内\n因进行了高度客制化导致其仅能装于AR15人形配枪下，无法装在其他枪械上作为刺刀使用",
+        "weight": "558 g",
+        "volume": "422 ml",
+        "longest_side": "25 cm",
+        "price": 10000,
+        "price_postapoc": 1250,
+        "to_hit": 2,
+        "bashing": 8,
+        "cutting": 30,
+        "material": [
+            "steel",
+            "plastic"
+        ],
+        "symbol": ";",
+        "color": "dark_gray",
+        "gunmod_data": {
+            "location": "underbarrel",
+            "mod_targets": [
+                "GFMod_ar15"
+            ],
+            "mode_modifier": [
+                [
+                    "REACH",
+                    "bayonet",
+                    2,
+                    [
+                        "MELEE",
+                        "REACH_ATTACK"
+                    ]
+                ]
+            ],
+            "install_time": "3 s"
+        },
+        "min_skills": [
+            [
+                "weapon",
+                2
+            ],
+            [
+                "melee",
+                1
+            ]
+        ],
+        "techniques": [
+            "RAPID"
+        ],
+        "qualities": [
+            [
+                "CUT",
+                2
+            ],
+            [
+                "CUT_FINE",
+                2
+            ],
+            [
+                "BUTCHER",
+                20
+            ],
+            [
+                "PRY",
+                3
+            ],
+            [
+                "HAMMER",
+                1
+            ],
+            [
+                "SAW_M",
+                1
+            ],
+            [
+                "SAW_W",
+                1
+            ],
+            [
+                "SAW_M_FINE",
+                1
+            ]
+        ],
+        "thrown_damage": [
+            {
+                "damage_type": "stab",
+                "amount": 14
+            }
+        ],
+        "use_action": [ "HAMMER", "CROWBAR" ],
+        "flags": [
+            "STAB",
+            "DURABLE_MELEE",
+            "SHEATH_KNIFE",
+            "NPC_THROWN"
+        ]
+    }
+]

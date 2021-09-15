@@ -1,5 +1,32 @@
 [
     {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "mags",
+        "entries": [
+            {
+                "item": "stanag30",
+                "ammo-item": "556",
+                "charges": 30
+            },
+            {
+                "item": "stanag30",
+                "ammo-item": "556",
+                "charges": 30
+            },
+            {
+                "item": "stanag30",
+                "ammo-item": "556",
+                "charges": 30
+            },
+            {
+                "item": "stanag30",
+                "ammo-item": "556",
+                "charges": 30
+            }
+        ]
+    },
+    {
         "type": "profession",
         "id": "unemployed",
         "name": "ST AR-15战术人形",
@@ -9,7 +36,9 @@
             "QUICK",
             "GOODMEMORY",
             "PRETTY",
-            "PSYCHOPATH"
+            "PSYCHOPATH",
+            "eye_blue",
+            "GF_AR15_Hair"
         ],
         "proficiencies": [
             "prof_gunsmithing_improv"
@@ -56,12 +85,14 @@
             "bio_armor_arms",
             "bio_armor_eyes",
             "bio_armor_head",
-            "bio_armor_legs","bio_armor_torso","bio_batteries",
+            "bio_armor_legs",
+            "bio_armor_torso",
+            "bio_batteries",
             "bio_power_armor_interface_mkII",
             "bio_power_storage_mkII",
             "bio_cable",
             "bio_sunglasses",
-            "bio_targeting",
+            "GF_ASST",
             "bio_str_enhancer",
             "bio_weight",
             "bio_watch",
@@ -75,24 +106,32 @@
                 "items": [],
                 "entries": [
                     {
-                        "item": "GFMod_ar15",
+                        "item": "GF_AR15",
                         "ammo-item": "556",
                         "charges": 30,
                         "contents-item": [
                             "shoulder_strap",
-                            "holo_sight"
+                            "GF_CTRStock",
+                            "GF_AFG2Grip",
+                            "GF_LEUPOLDMark6Scope",
+                            "GF_MBUSSight",
+                            "GF_SVCOMP"
                         ]
+                    },
+                    {
+                        "item": "GF_AR15_Dress",
+                        "contents-group": "mags"
                     }
                 ]
             },
             "female": [
                 "bra",
-                "AR15_Panties",
-                "AR15_K9",
-                "AR15_Dress",
-                "AR15_Boots",
-                "AR15_Gloves",
-                "AR15_Coat"
+                "GF_AR15_Panties",
+                "GF_AR15_K9",
+                "GF_AR15_Boots",
+                "GF_AR15_Gloves",
+                "GF_AR15_Coat",
+                "GF_AR15_Scarf_loose"
             ]
         }
     }

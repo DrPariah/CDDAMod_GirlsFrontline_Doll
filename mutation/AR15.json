@@ -1,0 +1,23 @@
+[
+    {
+        "id": "GF_AR15_Hair",
+        "type": "mutation",
+        "name": {
+            "str": "头发：淡粉色 中长发"
+        },
+        "description": "头发：淡粉色 中长发",
+        "points": 0,
+        "starting_trait": true,
+        "valid": false,
+        "purifiable": false,
+        "player_display": false,
+        "vanity": true,
+        "flags": [
+            "hair_white",
+            "hair_medium"
+        ],
+        "types": [
+            "hair_style"
+        ]
+    }
+]

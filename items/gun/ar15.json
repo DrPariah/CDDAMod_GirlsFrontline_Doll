@@ -1,6 +1,6 @@
 [
     {
-        "id": "GFMod_ar15",
+        "id": "GF_AR15",
         "copy-from": "rifle_semi",
         "type": "GUN",
         "name": {
@@ -71,11 +71,6 @@
                 "AUTO",
                 "全自动",
                 5
-            ],
-            [
-                "MELEE",
-                "三连发",
-                3
             ]
         ]
     }
